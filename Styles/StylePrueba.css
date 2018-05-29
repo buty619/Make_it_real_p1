@@ -11,14 +11,15 @@ body{
 }
 
 article{
-    margin: 5px;
-    padding: 200px 550px;
+    
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100%;
 
 }
-article > section {
+article > div > section {
 
     
     font-size: x-large;
@@ -27,7 +28,7 @@ article > section {
 }
 
 
-article > footer {
+article > div > footer {
 
     font-size: 18px;
     font-family: PR;
